@@ -1,12 +1,12 @@
 :root {
-    --building-color1: #aa80ff;
+    --building-color1: #ff4800;
     --building-color2: #66cc99;
-    --building-color3: #cc6699;
-    --building-color4: #538cc6;
-    --window-color1: #bb99ff;
-    --window-color2: #8cd9b3;
-    --window-color3: #d98cb3;
-    --window-color4: #8cb3d9;
+    --building-color3: #4d2a3c;
+    --building-color4: #14518d;
+    --window-color1: #f68558;
+    --window-color2: #fffb83;
+    --window-color3: #9b808e;
+    --window-color4: #ffc5f7;
   }
   
   * {
@@ -47,7 +47,8 @@
         #ffcf33,
         #ffcf33 20%,
         #ffff66 21%,
-        #bbeeff 100%
+        #23c0f5 50%
+        
       );
   }
   
