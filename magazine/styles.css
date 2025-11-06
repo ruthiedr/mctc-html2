@@ -11,22 +11,26 @@ html {
 }
 
 body {
-  font-family: 'Baskervville', serif;
-  color: linen;
-  background-color: rgb(20, 30, 40);
+    font-family: "Figtree", sans-serif;
+  color: rgb(22, 25, 39);
+  background-color: rgb(242, 213, 180);
 }
 
 h1 {
-  font-family: 'Anton', sans-serif;
+    font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
+    font-family: "Goldman", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 a {
   text-decoration: none;
-  color: linen;
+  color: rgb(21, 138, 2);
 }
 
 main {
@@ -38,6 +42,7 @@ main {
 img {
   width: 100%;
   object-fit: cover;
+  border:#006ba1 2px;
 }
 
 hr {
@@ -67,14 +72,19 @@ hr {
 
 .hero-title {
   text-align: center;
-  color: orangered;
+  color: rgb(212, 12, 12);
   font-size: 8rem;
 }
 
 .hero-subtitle {
   font-size: 2.4rem;
-  color: orangered;
+  color: rgb(212, 12, 12);
   text-align: center;
+}
+
+.hero-img {
+    height: 200px;
+    
 }
 
 .author {
@@ -101,16 +111,17 @@ hr {
 
 .first-paragraph::first-letter {
   font-size: 6rem;
-  color: orangered;
+  color: rgb(212, 12, 12);
   float: left;
   margin-right: 1rem;
 }
 
 .quote {
-  color: #00beef;
+  color: #006ba1;
   font-size: 2.4rem;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Goldman", sans-serif;
+  
 }
 
 .quote::before {
@@ -138,7 +149,7 @@ hr {
 }
 
 .list-title, .list-subtitle {
-  color: #00beef;
+  color: #006ba1;
 }
 
 .image-wrapper {
