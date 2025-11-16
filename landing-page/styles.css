@@ -1,0 +1,72 @@
+* {
+    font-family: verdana, sans-serif;
+  }
+  
+  #header-img {
+  width: 70px;
+  display: inline-block;
+  padding: 0 40px
+  }
+  
+  nav {
+    position: fixed;
+    top: 0px;
+    padding: 0 40px;
+    margin: 0;
+    display: inline-block;
+    background-color: lightgrey;
+  
+  }
+  
+  ul li  {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin-right: 25px;
+    padding: 0 10px;
+    font-size: 25px;
+  }
+  
+  #about, #sales, #connect{
+  padding: 50px;
+  
+  }
+  
+  #video {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h2 {
+    width: 100%;
+    background-color: teal;
+    color: white;
+    padding: 20px;
+  }
+  
+  footer {
+    width: 100%;
+    background-color: lightgrey;
+    color: black;
+    padding: 20px;
+  }
+  
+  button, #submit{
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  @media screen and (min-width: 400px) {
+    body {
+      
+      background-color: eggshell;
+      
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lightyellow;
+    }
+  }
