@@ -91,24 +91,42 @@
     0% {
       transform: rotate(0deg);
     }
-    25% {
+    10% {
       background-color: red;
     }
-    50% {
+
+    20% {
+        background-color: orangered;
+    }
+
+    30% {
       background-color: yellow;
     }
+
+    40% {
+        background-color: yellowgreen;
+    }
   
-    75% {
+    50% {
       background-color: green;
     }
+
+    60% {
+        background-color: #00cec8;
+    }
   
-    85% {
+    70% {
       background-color: blue;
     }
+
+    80% {
+        background-color: violet;
+    }
   
-    95% {
+    90% {
       background-color: purple;
     }
+
   
     100% {
       transform: rotate(-360deg);
