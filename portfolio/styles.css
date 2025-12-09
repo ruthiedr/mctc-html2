@@ -1,0 +1,171 @@
+body  {
+    background-color: #EFEFE5;
+    color: #394337;
+  }
+  
+  .content-wrapper {
+    width: 1200px;
+      margin: 0 auto;
+      overflow: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #394337;
+  }
+  
+  h1 {
+    font-family: "felt-tip-senior", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 55px;
+  float: left;
+  margin: 0px;
+  
+  }
+  
+  
+  
+  
+  /**NAV BAR***/
+  #navbar {
+    list-style-type: none;
+    position: fixed;
+    top: 0px;
+  }
+  
+  header nav {
+    float: right;
+    width: 90%;
+    padding: 20px;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+  }
+  
+  
+  .orange {
+    color: #C84A19;
+  }
+  /**HERO/WELCOME**/
+  #welcome-section {
+    height: 100vh;
+    width: 40%;
+    margin: 20%;
+    font-size: 30px;
+  }
+  
+  .name {
+    background: #C84A19;
+    
+    font-family: "felt-tip-senior", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  color: #EFEFE5;
+  }
+  
+  /**ABOUT**/
+  #about .content-wrapper {
+     padding: 50px 0 100px 0;
+  }
+  
+  #about {
+    color: #EFEFE5;
+      background: #C84A19;
+      text-align: center;
+      font-size: 20px;
+      line-height: 35px;
+  }
+  
+  #about h2 {
+    margin: 50px;
+  }
+  
+  /**MY WORK**/
+  #projects {
+   text-align: center;
+  }
+  
+  .project-tile {
+    width: 330px;
+    text-algn: center;
+    float: left;
+    margin: 30px;
+    font-size: 45px;
+    
+  }
+  
+  #projects h2 {
+    margin: 100px;
+    font-size: 30px;
+  }
+  
+  #projects .project-title {
+    font-family: "felt-tip-senior", sans-serif;
+    text-decoration: underline;
+  }
+  
+  /***CONNECT****/
+  #connect {
+    color: #EFEFE5;
+      background: #C84A19;
+      text-align: center;
+      font-size: 25px;
+      padding: 50px;
+  }
+  
+  /***FOOTER****/
+  footer {
+    text-align: center;
+    padding: 25px;
+  }
+  
+  /**MEDIA QUERIES**/
+    @media screen and (max-width: 767px) {
+    body {
+      
+      font-family: "gill-sans-nova", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+      display: flex;
+      flex-direction: column;
+      
+     
+     
+    }
+  
+    #projects .project-tile{
+      width: 150px;
+      font-size: 25px;
+      text-align: center;
+      margin: 15px;
+    }
+  
+    
+  
+    #about h2, p{
+      width: 200px;
+      text-align: center;
+      padding: 50px;
+      margin: 10px;
+    }
+  
+    #connect h2, .profile-link {
+      width: 100px;
+      text-align: center;
+      padding: 50px;
+      margin: 10px;
+    }
+  
+    
+   
+  }
